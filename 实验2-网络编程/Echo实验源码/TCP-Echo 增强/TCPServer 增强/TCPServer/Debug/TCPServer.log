@@ -1,0 +1,29 @@
+﻿生成启动时间为 2017/3/22 21:10:13。
+     1>项目“C:\Users\li\Desktop\计算机网络实验课程\15336082_李红亮_Echo实验源码\TCP-Echo 增强\TCPServer 增强\TCPServer\TCPServer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt TCPServer.cpp
+         TCPServer.cpp
+     1>c:\users\li\desktop\计算机网络实验课程\15336082_李红亮_echo实验源码\tcp-echo 增强\tcpserver 增强\tcpserver\tcpserver.cpp(49): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: 参见“inet_ntoa”的声明
+     1>c:\users\li\desktop\计算机网络实验课程\15336082_李红亮_echo实验源码\tcp-echo 增强\tcpserver 增强\tcpserver\tcpserver.cpp(52): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1316): note: 参见“itoa”的声明
+     1>c:\users\li\desktop\计算机网络实验课程\15336082_李红亮_echo实验源码\tcp-echo 增强\tcpserver 增强\tcpserver\tcpserver.cpp(63): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\time.h(475): note: 参见“ctime”的声明
+     1>c:\users\li\desktop\计算机网络实验课程\15336082_李红亮_echo实验源码\tcp-echo 增强\tcpserver 增强\tcpserver\tcpserver.cpp(64): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: 参见“strcat”的声明
+     1>c:\users\li\desktop\计算机网络实验课程\15336082_李红亮_echo实验源码\tcp-echo 增强\tcpserver 增强\tcpserver\tcpserver.cpp(65): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: 参见“strcat”的声明
+     1>c:\users\li\desktop\计算机网络实验课程\15336082_李红亮_echo实验源码\tcp-echo 增强\tcpserver 增强\tcpserver\tcpserver.cpp(66): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: 参见“strcat”的声明
+     1>c:\users\li\desktop\计算机网络实验课程\15336082_李红亮_echo实验源码\tcp-echo 增强\tcpserver 增强\tcpserver\tcpserver.cpp(67): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: 参见“strcat”的声明
+     1>c:\users\li\desktop\计算机网络实验课程\15336082_李红亮_echo实验源码\tcp-echo 增强\tcpserver 增强\tcpserver\tcpserver.cpp(68): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: 参见“strcat”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\li\Desktop\计算机网络实验课程\15336082_李红亮_Echo实验源码\TCP-Echo 增强\TCPServer 增强\Debug\TCPServer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\li\Desktop\计算机网络实验课程\15336082_李红亮_Echo实验源码\TCP-Echo 增强\TCPServer 增强\Debug\TCPServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\li\Desktop\计算机网络实验课程\15336082_李红亮_Echo实验源码\TCP-Echo 增强\TCPServer 增强\Debug\TCPServer.lib" /MACHINE:X86 /SAFESEH Debug\TCPServer.obj
+         TCPServer.vcxproj -> C:\Users\li\Desktop\计算机网络实验课程\15336082_李红亮_Echo实验源码\TCP-Echo 增强\TCPServer 增强\Debug\TCPServer.exe
+     1>已完成生成项目“C:\Users\li\Desktop\计算机网络实验课程\15336082_李红亮_Echo实验源码\TCP-Echo 增强\TCPServer 增强\TCPServer\TCPServer.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.03
